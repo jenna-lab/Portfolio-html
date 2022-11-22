@@ -1,3 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  background: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./images/formyproject.webp);
+  background-size: cover;
+}
+#navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#navbar ul {
+  list-style-type: none;
+}
+#navbar a {
+  text-decoration: double;
+}
+#navbar a:hover {
+  color: black;
+  background-color: purple;
+}
+#navbar li {
+  display: inline;
+  padding: 20px;
+  font-size: large;
+}
+/*landing page*/
+.landing-page {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  position: relative;
+  right: -20px;
+}
+.landing-page .right {
+  text-align: left;
+  padding-left: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.landing-page .myproject {
+  padding: 15px;
+  background-color: red;
+  display: inline-block;
+}
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+.footer .contactme {
+  position: relative;
+  left: -55px;
+}
+.footer .socials a {
+  display: block;
+  font-size: 200%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  position: relative;
+  top: -50px;
+  left: -20px;
+}
+.footer .socials a:hover {
+  color: blue;
+}
+.footer .copyright {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  text-align: center;
 }
